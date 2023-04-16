@@ -8,7 +8,7 @@ def read_input():
     if 'I' in input_type:
         pattern = input().strip()
         text = input().strip()
-    elif 'F' in input():
+    elif 'F' in input_type:
         with open("tests/06") as file:
             pattern = file.readline().rstrip()
             text = file.readline().rstrip()
